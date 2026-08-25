@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.boom{
+	padding: 30px;
+	background: #000000;
+	margin: 50px;
+	text-align: justify;
+	color: white;
+}
+
+#hwt{
+	margin-left: 50px;
+	margin-right: 10px;
+	padding: 10px 40px;
+	background: tomato;
+}
+
+#swt{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 30px;
+	background: tomato;
+}
+#ftbutton{
+	display: block;
+	padding: 10px 45px;
+	background: #fff000;
+}
+
+#div1,#div2,#div3,#div4{
+	width: 21%;
+	height: 220px;
+	float: left;
+	margin: 15px;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+}
+#div1{
+	background: tomato;
+}
+
+#div2{
+	background: blue;
+}
+#div3{
+	background: beige;
+	color: black;
+}
+#div4{
+	background: orange;
+}
+
+#flif,#panel{
+	text-align: center;
+	background: beige;
+	border: 2px solid #c3c3c3;
+	font-size: 25px;
+
+}
+#flif{
+	cursor: pointer;
+}
+#panel{
+	padding: 25px;
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+
