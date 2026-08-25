@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Learn jQuery || class 28</title>
+
+		<!-- Main CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+	<body>
+
+		<h1>Welcome To Freedom IT</h1>
+
+
+		<p class="pre">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+
+		<p class="cool">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet,
+			 consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+		</p>
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+
+		<br>
+		<br>
+		<br>
+
+		<h5 style="width: 600px;" class="me">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		</h5>
+
+		<br>
+		<br>
+
+		<h5 style="width: 600px;" class="ml">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		</h5>
+
+		<br>
+		<br>
+
+		<p class="boom">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<button id="hwt">Hide</button>
+		<button id="swt">Show</button>
+
+		<br>
+		<br>
+
+		<h2>Fade Toggle</h2>
+
+		<button id="ftbutton">Welcome To Freedom IT</button>
+
+		<div id="div1">Welcome To FIT
+		$(document).ready(function(){
+	       $("h1").hide();
+           });
+           $(document).ready(function(){
+	         $(".me").mouseenter(function(){
+		       alert("Welcome To Freedom IT Family");
+	                });
+           });
+       </div>
+		<div id="div2">Welcome To FIT
+
+          $(document).ready(function(){
+	          $("#hide").click(function(){
+		          $(".cool").hide();
+	       });
+	          $("#show").click(function(){
+		          $(".cool").show();
+	         });
+	       });</div>
+		<div id="div3">Welcome To FIT
+			$(document).ready(function(){
+	           $("#hwt").click(function(){
+		          $(".boom").hide(3000);
+	            });
+	            $("#swt").click(function(){
+		            $(".boom").show(5000);
+	              });
+              });
+		</div>
+		<div id="div4">Welcome To FIT
+			$(document).ready(function(){
+	          $("#ftbutton").click(function(){
+		        $("#div1").fadeToggle("fast");
+		        $("#div2").fadeToggle("slow");
+		        $("#div3").fadeToggle(3000);
+		        $("#div4").fadeToggle(4000);
+	          });
+            });
+
+		</div>
+
+		<br>
+		<br>
+
+
+		<h3>Click To Slide</h3>
+
+		<div id="flif">Why Me?</div>
+		<div id="panel">
+			High Quality Design | 100% Client Satisfaction so, What are you waiting for?
+		</div>
+
+
+		<br>
+		<br>
+
+
+
+
+
+
+
+
+
+
+
+		<!-- jQuery CDN -->
+		
+		<script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+
+		<!-- Main jQuery -->
+
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</body>
+</html>
